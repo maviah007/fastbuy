@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00B61CD95C7C19A87791DB15 /* libPods-fastbuyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42DE3FED3DFA91821AC48982 /* libPods-fastbuyTests.a */; };
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
@@ -36,6 +35,9 @@
 		F84417482190D0C000416828 /* libReactNativeCameraKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F84417402190D0A600416828 /* libReactNativeCameraKit.a */; };
 		F8AF54C6218F2E97008B0E90 /* libRNGoogleSignin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8AF54C3218F2E7A008B0E90 /* libRNGoogleSignin.a */; };
 		F8B5CB7A219871C600F45916 /* libRNDeviceInfo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B5CB73219871AF00F45916 /* libRNDeviceInfo.a */; };
+		05A51697A32849F08A191D49 /* libAppCenterReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D84B7AE113A4AFFBD6C7C19 /* libAppCenterReactNative.a */; };
+		E95B3BD7965D4E91A1D4BE65 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2E31B9D4D954028B85F80A9 /* AppCenter-Config.plist */; };
+		C8EB22B3121746EB80C5E639 /* libAppCenterReactNativeAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F326E939DA5946738840C77D /* libAppCenterReactNativeAnalytics.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -403,6 +405,11 @@
 		F8AF54CD218F2EE4008B0E90 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		F8B5CB47219871AF00F45916 /* RNDeviceInfo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNDeviceInfo.xcodeproj; path = "../node_modules/react-native-device-info/ios/RNDeviceInfo.xcodeproj"; sourceTree = "<group>"; };
 		FF4DD206F6F845D39DBF7CD9 /* RNLanguages.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNLanguages.xcodeproj; path = "../node_modules/react-native-languages/ios/RNLanguages.xcodeproj"; sourceTree = "<group>"; };
+		513B662080AF42169665FE78 /* AppCenterReactNative.xcodeproj */ = {isa = PBXFileReference; name = "AppCenterReactNative.xcodeproj"; path = "../node_modules/appcenter/ios/AppCenterReactNative.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		3D84B7AE113A4AFFBD6C7C19 /* libAppCenterReactNative.a */ = {isa = PBXFileReference; name = "libAppCenterReactNative.a"; path = "libAppCenterReactNative.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		C2E31B9D4D954028B85F80A9 /* AppCenter-Config.plist */ = {isa = PBXFileReference; name = "AppCenter-Config.plist"; path = "fastbuy/AppCenter-Config.plist"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.plist.xml; explicitFileType = undefined; includeInIndex = 0; };
+		9BA0B5FFF8CC4D78AB10936A /* AppCenterReactNativeAnalytics.xcodeproj */ = {isa = PBXFileReference; name = "AppCenterReactNativeAnalytics.xcodeproj"; path = "../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		F326E939DA5946738840C77D /* libAppCenterReactNativeAnalytics.a */ = {isa = PBXFileReference; name = "libAppCenterReactNativeAnalytics.a"; path = "libAppCenterReactNativeAnalytics.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -437,6 +444,8 @@
 				B9406E0B5A89493480F8A339 /* libRNLanguages.a in Frameworks */,
 				EB4DA0CD01B6458187EF2FE1 /* libRNFirebase.a in Frameworks */,
 				5F8AA0313C79F6817FD9AF70 /* libPods-fastbuy.a in Frameworks */,
+				05A51697A32849F08A191D49 /* libAppCenterReactNative.a in Frameworks */,
+				C8EB22B3121746EB80C5E639 /* libAppCenterReactNativeAnalytics.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,6 +631,8 @@
 				B6309E08929F4735B652CFE1 /* RNFirebase.xcodeproj */,
 				F8AF5495218F2E7A008B0E90 /* RNGoogleSignin.xcodeproj */,
 				FF4DD206F6F845D39DBF7CD9 /* RNLanguages.xcodeproj */,
+				513B662080AF42169665FE78 /* AppCenterReactNative.xcodeproj */,
+				9BA0B5FFF8CC4D78AB10936A /* AppCenterReactNativeAnalytics.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -646,6 +657,7 @@
 				F8F04D78218C97C50073B832 /* Recovered References */,
 				63A674DD17D94E0F94520E78 /* Resources */,
 				C51C8E5C946DCB30CDCE221F /* Pods */,
+				C2E31B9D4D954028B85F80A9 /* AppCenter-Config.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -1209,6 +1221,7 @@
 				E09D2263A0FB4B0CB6A7E07C /* Exo-Bold.ttf in Resources */,
 				E37283A49208432A9800DBC4 /* Exo-Light.ttf in Resources */,
 				8BDF14E10E5647B6BC30378A /* Exo-Regular.ttf in Resources */,
+				E95B3BD7965D4E91A1D4BE65 /* AppCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1373,12 +1386,16 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-languages/ios",
 					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
+					"$(SRCROOT)\..\node_modules\appcenter\ios\AppCenterReactNative",
+					"$(SRCROOT)\..\node_modules\appcenter-analytics\ios\AppCenterReactNativeAnalytics",
 				);
 				INFOPLIST_FILE = fastbuyTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1405,12 +1422,16 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-languages/ios",
 					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
+					"$(SRCROOT)\..\node_modules\appcenter\ios\AppCenterReactNative",
+					"$(SRCROOT)\..\node_modules\appcenter-analytics\ios\AppCenterReactNativeAnalytics",
 				);
 				INFOPLIST_FILE = fastbuyTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1438,6 +1459,8 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-languages/ios",
 					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
+					"$(SRCROOT)\..\node_modules\appcenter\ios\AppCenterReactNative",
+					"$(SRCROOT)\..\node_modules\appcenter-analytics\ios\AppCenterReactNativeAnalytics",
 				);
 				INFOPLIST_FILE = fastbuy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1462,6 +1485,8 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-languages/ios",
 					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
+					"$(SRCROOT)\..\node_modules\appcenter\ios\AppCenterReactNative",
+					"$(SRCROOT)\..\node_modules\appcenter-analytics\ios\AppCenterReactNativeAnalytics",
 				);
 				INFOPLIST_FILE = fastbuy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
